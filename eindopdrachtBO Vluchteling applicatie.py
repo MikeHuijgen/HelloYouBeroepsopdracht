@@ -31,49 +31,49 @@ def vraag22():
         print(vraag22())
 
 def vraag21():
-    print("")
-    print("a = ")
-    print("b = ")
+    print("Je krijg te horen dat je een verblijfsvergunning nodig hebt. Hoe ga je die proberen te krijgen")
+    print("a = Naar de gemeente")
+    print("b = Kopen")
     
     antwoord21 = input()
     if antwoord21.lower() == "a":
-        print("")
-        print(vraag())
+        print("Hopelijk kunnen zij je helpen")
+        print(vraag19())
     elif antwoord21.lower() == "b":
-        print("")
-        print(vraag())
+        print("Is dat wel slim??? Wat maakt jou het uit je verdient het")
+        print(vraag27())
     else:
         print("Kies a of b")
         print(vraag21())
 
 def vraag20():
-    print("")
-    print("a = ")
-    print("b = ")
+    print("Je kan in een asielzoekerscentrum terecht wil je dat")
+    print("a = Ja")
+    print("b = Nee")
     
     antwoord20 = input()
     if antwoord20.lower() == "a":
-        print("")
-        print(vraag())
+        print("Je word hartelijk verwelkomd en ze proberen ook je te helpen om in nederland te kunnen blijven")
+        print(vraag26())
     elif antwoord20.lower() == "b":
-        print("")
-        print(vraag())
+        print("Je gaat dan toch maar kijken of je bij de gemeente iets voor elkaar kan krijgen")
+        print(vraag19())
     else:
         print("Kies a of b")
         print(vraag20())
 
 def vraag19():
-    print("")
-    print("a = ")
-    print("b = ")
+    print("Je komt aan bij de gemeente. Ze vragen wat je in Nederland komt doen en wat je wilt")
+    print("a = Vertel de waarheid en vraag of je een verblijfsvergunning mag en dat je ook er voor wilt werken")
+    print("b = Je liegt waarom je in Nederland bent")
     
     antwoord19 = input()
     if antwoord19.lower() == "a":
-        print("")
-        print(vraag())
+        print("Ze kijken wat ze voor je kunnen doen")
+        print(vraag24())
     elif antwoord19.lower() == "b":
-        print("")
-        print(vraag())
+        print("Ze denken dat je liegt dus je word meegenomen door de politie en verhoord")
+        print(vraag25())
     else:
         print("Kies a of b")
         print(vraag19())
