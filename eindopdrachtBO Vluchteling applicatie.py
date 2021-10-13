@@ -1,3 +1,71 @@
+def vraag14():
+    print("Je ziet een splitsing. 1 weg naar een vliegveld en de 2de weg naar een meertje")
+    print("a = weg 1")
+    print("b = weg 2")
+    
+    antwoord14 = input()
+    if antwoord14.lower() == "a":
+        print("Hopelijk kan je daar verder vluchten")
+        print(vraag8())
+    elif antwoord14.lower() == "b":
+        print("Hopelijk kan je daar verder vluchten")
+        print(vraag7())
+    else:
+        print("Kies a of b")
+        print(vraag14())
+
+def vraag13():
+    print("Ze willen je eten geven wat neem je?")
+    print("a = Brood")
+    print("b = Vlees")
+    print("c = Groente")
+    
+    antwoord13 = input()
+    if antwoord13.lower() == "a":
+        print("Je hebt al dagen niet gegeten dit zal je goed doen")
+        print(vraag17())
+    elif antwoord13.lower() == "b":
+        print("Een stukje vlees dat is altijd goed voor je")
+        print(vraag17())
+    elif antwoord13.lower() == "c":
+        print("Groente zijn goed voor je het brengt je ook weer op kracht")
+        print(vraag17())
+    else:
+        print("Kies a, b of c")
+        print(vraag13())
+
+def vraag12():
+    print("Je komt er achter dat de soldaten je naar Nederland kunnen brengen. Ga je voor de kans of niet")
+    print("a = Nederland here i come")
+    print("b = Nee ik zoek iets anders")
+    
+    antwoord12 = input()
+    if antwoord12.lower() == "a":
+        print("Je vertrekt met het vliegtuig en je kan eindelijk bijkomen van de lange reis")
+        print(vraag16())
+    elif antwoord12.lower() == "b":
+        print("Okay er is jammer genoeg geen ander vliegtuig dus je gaat maar verder lopen")
+        print(vraag9())
+    else:
+        print("Kies a of b")
+        print(vraag12())
+
+def vraag11():
+    print("Je zit op zee en het stormt heel erg. De kleine boot valt om door een groote golf. Probeer je weer op de boot te komen of laat je je mee slepen door de golven?")
+    print("a = Je klimt op de boot")
+    print("b = Je laat je meeslepen")
+    
+    antwoord11 = input()
+    if antwoord11.lower() == "a":
+        print("Je probeerd de boot weer recht op te krijgen maar er komt nog een groote golf op je af. Je word mee gesleurd door de golven en verdrinkt")
+        print(vraag1())
+    elif antwoord11.lower() == "b":
+        print("Je word mee gesleurd door de golven en verdrinkt")
+        print(vraag1())
+    else:
+        print("Kies a of b")
+        print(vraag11())
+
 def vraag10():
     print("Je stopt bij Griekenland. Ga je weer mee met de boot of blijf je hier")
     print("a = Je gaat met de boot mee")
@@ -6,10 +74,10 @@ def vraag10():
     antwoord10 = input()
     if antwoord10.lower() == "a":
         print("Je hoort dat de boot naar Nederland gaat. Misschien kan je daar een nieuw leven opbouwen")
-        print(vraag15())
+        print(vraag16())
     elif antwoord10.lower() == "b":
         print("Je nieuwe leven in Griekenland begint nu")
-        print(vraag16())
+        print(vraag15())
     else:
         print("Kies a of b")
         print(vraag10())
@@ -40,8 +108,8 @@ def vraag8():
         print("De soldaten zien er vriendelijk uit. Je gaat met hun praten")
         print(vraag12())
     elif antwoord8.lower() == "b":
-        print("Je ziet nog een klein vliegtuigje staan je loopt daar heen")
-        print(vraag13())
+        print("Okay er is jammer genoeg geen ander vliegtuig dus je gaat maar verder lopen")
+        print(vraag9())
     else:
         print("Kies a of b")
         print(vraag8())
