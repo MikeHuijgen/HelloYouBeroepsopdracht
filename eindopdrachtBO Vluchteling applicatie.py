@@ -1,3 +1,151 @@
+def vraag23():
+    print("JA je krijg net te horen dat je mag blijven en een verblijfsvergunning krijg")
+    print("a = Je gaat op zoek naar werk")
+    print("b = Je gaat genieten van het land en reizen")
+    
+    antwoord23 = input()
+    if antwoord23.lower() == "a":
+        print("Je werkt elke dag voor de komende 5 jaar. Je bent nu rijk heb een mooi huis en een goed leven toch denk je soms nog wel terug aan de slechte tijd")
+        print(vraag1())
+    elif antwoord23.lower() == "b":
+        print("Je reis heel Griekenland door. Je ziet allemaal mooie plekken en je hebt een fijn leven")
+        print(vraag1())
+    else:
+        print("Kies a of b")
+        print(vraag22())
+
+def vraag22():
+    print("De geemnste geeft je nog 1 kans")
+    print("a = Je blijft liegen")
+    print("b = Je verteld de waarheid")
+    
+    antwoord22 = input()
+    if antwoord22.lower() == "a":
+        print("De politie word gebeld en je word opgepakt voor fraude")
+        print(vraag1())
+    elif antwoord22.lower() == "b":
+        print("Ze vinden het niet leuk maar ze kijken watze kunnen doen")
+        print(vraag23())
+    else:
+        print("Kies a of b")
+        print(vraag22())
+
+def vraag21():
+    print("")
+    print("a = ")
+    print("b = ")
+    
+    antwoord21 = input()
+    if antwoord21.lower() == "a":
+        print("")
+        print(vraag())
+    elif antwoord21.lower() == "b":
+        print("")
+        print(vraag())
+    else:
+        print("Kies a of b")
+        print(vraag21())
+
+def vraag20():
+    print("")
+    print("a = ")
+    print("b = ")
+    
+    antwoord20 = input()
+    if antwoord20.lower() == "a":
+        print("")
+        print(vraag())
+    elif antwoord20.lower() == "b":
+        print("")
+        print(vraag())
+    else:
+        print("Kies a of b")
+        print(vraag20())
+
+def vraag19():
+    print("")
+    print("a = ")
+    print("b = ")
+    
+    antwoord19 = input()
+    if antwoord19.lower() == "a":
+        print("")
+        print(vraag())
+    elif antwoord19.lower() == "b":
+        print("")
+        print(vraag())
+    else:
+        print("Kies a of b")
+        print(vraag19())
+
+def vraag18():
+    print("Je komt aan bij de gemeente. Ze vragen wat je komt doen en wat je wilt")
+    print("a = Lieg en zeg dat je hier ben komen wonen maar je verblijfsvergunning gestolen")
+    print("b = Vertel de waarheid en vraag of je een verblijfsvergunning mag en dat je ook er voor wilt werken")
+    
+    antwoord18 = input()
+    if antwoord18.lower() == "a":
+        print("De gemeente probeerd je naam op te zoeken maar je staat niet in het systeem")
+        print(vraag22())
+    elif antwoord18.lower() == "b":
+        print("Ze weten niet zeker of het lukt maar ze zullen kijken wat ze kunnen doen")
+        print(vraag23())
+    else:
+        print("Kies a of b")
+        print(vraag18())
+
+def vraag17():
+    print("Er zit vergif in het eten je zit namelijk in een enemy kamp je kan 2 dingen doen")
+    print("a = Niks doen je geeft op")
+    print("b = Uit het kamp rennen")
+    
+    antwoord17 = input()
+    if antwoord17.lower() == "a":
+        print("Je sterft in het kamp")
+        print(vraag1())
+    elif antwoord17.lower() == "b":
+        print("Je rent het dorp uit en rent tegen een soldaat die toevallig een anti-gif heeft. Hij vraagt je met hem mee wilt gaan lopen en dat doe je")
+        print(vraag9())
+    else:
+        print("Kies a of b")
+        print(vraag17())
+
+def vraag16():
+    print("Je komt eindelijk aan in Nederland maar waar ga je starten?")
+    print("a = Je vraagt aan de gemeente of je mag blijven en dat je een verblijfsvergunning mag hebben")
+    print("b = Je gaat proberen zo snel als je kan onderdak te regelen")
+    print("c = Je gaat werk zoeken")
+    
+    antwoord16 = input()
+    if antwoord16.lower() == "a":
+        print("Je hoopt dat je mag blijven zo niet wat moet je dan doen")
+        print(vraag19())
+    elif antwoord16.lower() == "b":
+        print("Er is vast wel een plek waar je heen kan")
+        print(vraag20())
+    elif antwoord16.lower() == "b":
+        print("Je kan het altijd proberen")
+        print(vraag21())
+    else:
+        print("Kies a, b of c")
+        print(vraag16())
+
+def vraag15():
+    print("Je gaat nu leven in Griekenland. Wat gaat je als eerst doen")
+    print("a = Naar de gemeente")
+    print("b = Proberen om onderdak te krijgen")
+    
+    antwoord15 = input()
+    if antwoord15.lower() == "a":
+        print("Dat is mischien wel slim zij kunnen je vast helpen")
+        print(vraag18())
+    elif antwoord15.lower() == "b":
+        print("Dit is belangrijk maar ik denk toch dat je naar de gemeente moet")
+        print(vraag15())
+    else:
+        print("Kies a of b")
+        print(vraag15())
+
 def vraag14():
     print("Je ziet een splitsing. 1 weg naar een vliegveld en de 2de weg naar een meertje")
     print("a = weg 1")
