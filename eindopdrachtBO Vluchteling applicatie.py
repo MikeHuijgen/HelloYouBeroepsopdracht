@@ -1,3 +1,83 @@
+def vraag31():
+    print("Je denkt over wat je nu moet doen en je ziet twee mogelijkheden.\n")
+    print("a = Naar Griekenland vluchten")
+    print("b = Terug reizen naar huis")
+    
+    antwoord24 = input()
+    if antwoord24.lower() == "a":
+        print("Ik hoop dat je kansen beter zijn daar\n")
+        print(vraag15())
+    elif antwoord24.lower() == "b":
+        print("Je gaat terug. Na een lange reis zie je dat er nog steeds oorlog is en je besluit om weer te vluchten.\n")
+        print(vraag2())
+    else:
+        print("Kies a of b.\n")
+        print(vraag31())
+
+def vraag30():
+    print("Je werkt je kapot voor het minimalen. Je gaat een nieuwe baan zoeken. Wat voor baan wil je?\n")
+    print("a = Techniek")
+    print("b = Software developer")
+    
+    antwoord24 = input()
+    if antwoord24.lower() == "a":
+        print("Dit is denk een goede keus.\n")
+        print(vraag28())
+    elif antwoord24.lower() == "b":
+        print("Het verdient goed en is nog interessant ook.\n")
+        print(vraag29())
+    else:
+        print("Kies a of b.\n")
+        print(vraag30())
+
+def vraag29():
+    print("Je komt te werken bij een super leuk bedrijf en na zo veel jaar werken krijg je eindelijk je verblijfsvergunning. Ga je stoppen met werken of ga je door?\n")
+    print("a = stoppen")
+    print("b = doorgaan")
+    
+    antwoord24 = input()
+    if antwoord24.lower() == "a":
+        print("Na zo veel jaar werken kan je beter genieten.\n")
+        print(vraag36())
+    elif antwoord24.lower() == "b":
+        print("Je werkt nog 10 jaar door. Je baas verteld dat hij gaat stoppen en wilt dat jij het bedrijf gaat runnen.\n")
+        print(vraag37())
+    else:
+        print("Kies a of b.\n")
+        print(vraag29())
+
+def vraag28():
+    print("Na 10 jaar werken heb je een leuke toekomst opgebouwd. Je stopt met werken en gaat lekker relaxen van het geld dat je hebt gemaakt. Je vraagt je af zou ik terug gaan naar mijn moederland? \n")
+    print("a = Ja ik wil terug")
+    print("b = Nee ik blijf in Nederland")
+    
+    antwoord24 = input()
+    if antwoord24.lower() == "a":
+        print("Je gaat terug. Na een lange reis zie je dat er nog steeds oorlog is en je besluit om weer te vluchten.\n")
+        print(vraag2())
+    elif antwoord24.lower() == "b":
+        print("Je bent hier gekomen en blijft hier.\n")
+        print(vraag36())
+    else:
+        print("Kies a of b.\n")
+        print(vraag28())
+
+def vraag27():
+    print("Je kan het op de zwarte markt kopen alleen het is wel illigaal wil je het echt?\n")
+    print("a = Ga naar de zwarte markt")
+    print("b = Ga toch naar de gemeente")
+    
+    antwoord21 = input()
+    if antwoord21.lower() == "a":
+        print("Ik hoop dat het allemaal goed gaat.\n")
+        print(vraag35())
+    elif antwoord21.lower() == "b":
+        print("Dat is wel stuk veiliger.\n")
+        print(vraag19())
+    else:
+        print("Kies a of b.\n")
+        print(vraag27())
+
 def vraag26():
     print("Als je hier 5 weken slaap krijg je een verblijfsvergunning. Wat doe je?\n")
     print("a = Ik blijf")
@@ -407,7 +487,7 @@ def vraag2():
     
     print("Wat neem je mee ?\n")
     print("a = Mes")
-    print("b = AHBO kit")
+    print("b = EHBO kit")
     print("c = niks")
     
     antwoord2 = input()
