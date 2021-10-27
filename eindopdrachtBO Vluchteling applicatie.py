@@ -1,14 +1,30 @@
+def vraag40():
+    print("Je doet het groote project maar het gaat niet zo goed. Je kan proberen je bedrijf te redden door games te maken of je gaat failliet.\n")
+    print("a = Game maken")
+    print("b = Failliet")
+    
+    antwoord40 = input()
+    if antwoord40.lower() == "a":
+        print("Je heb besloten om games te maken met je team.\n")
+        print(vraag39())
+    elif antwoord40.lower() == "b":
+        print("Je heb het teminste geprobeerd. Je geniet nog van je laatste dagen.\n")
+        print(vraag1())
+    else:
+        print("Kies a of b.\n")
+        print(vraag40())
+
 def vraag39():
-    print("\n")
-    print("a = ")
-    print("b = ")
+    print("Je brengt met je team een game uit en het word een hit. Ga je een deel 2 maken?\n")
+    print("a = Nee")
+    print("b = Ja")
     
     antwoord39 = input()
     if antwoord39.lower() == "a":
-        print("\n")
-        print(vraag37())
+        print("Je word super bekend en je heb veel geld. Je laat je bedrijf overnemen en je geniet nog van je laatste dagen.\n")
+        print(vraag1())
     elif antwoord39.lower() == "b":
-        print("\n")
+        print("Je brengt deel 2 uit en je gaat nog meer games maken. Je word een succesvolle\n")
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -40,7 +56,7 @@ def vraag37():
         print("Dat is een hele slimmen zet want de markt is heel groot.\n")
         print(vraag39())
     elif antwoord37.lower() == "b":
-        print("Je kijkt of je grote projecten kan krijgen. Na een tijd zoeken heb je wat gevonden.\n")
+        print("Je kijkt of je groote projecten kan krijgen. Na een tijd zoeken heb je wat gevonden.\n")
         print(vraag40())
     else:
         print("Kies a of b.\n")
