@@ -1,3 +1,5 @@
+import time
+
 def vraag40():
     print("Je doet het groote project maar het gaat niet zo goed. Je kan proberen je bedrijf te redden door games te maken of je gaat failliet.\n")
     print("a = Game maken")
@@ -5,10 +7,16 @@ def vraag40():
     
     antwoord40 = input()
     if antwoord40.lower() == "a":
-        print("Je heb besloten om games te maken met je team.\n")
+        print("-------------------------------------------------------------------")
+        print("Je heb besloten om games te maken met je team.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag39())
     elif antwoord40.lower() == "b":
-        print("Je heb het teminste geprobeerd. Je geniet nog van je laatste dagen.\n")
+        print("-------------------------------------------------------------------")
+        print("Je heb het teminste geprobeerd. Je geniet nog van je laatste dagen.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -21,10 +29,16 @@ def vraag39():
     
     antwoord39 = input()
     if antwoord39.lower() == "a":
-        print("Je word super bekend en je heb veel geld. Je laat je bedrijf overnemen en je geniet nog van je laatste dagen.\n")
+        print("-------------------------------------------------------------------")
+        print("Je word super bekend en je heb veel geld. Je laat je bedrijf overnemen en je geniet nog van je laatste dagen.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag1())
     elif antwoord39.lower() == "b":
-        print("Je brengt deel 2 uit en je gaat nog meer games maken. Je word een succesvolle\n")
+        print("-------------------------------------------------------------------")
+        print("Je brengt deel 2 uit en je gaat nog meer games maken. Je word een succesvolle")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -37,10 +51,16 @@ def vraag38():
     
     antwoord38 = input()
     if antwoord38.lower() == "a":
-        print("Slim nu kan je bedrijf nog goed groeien\n")
+        print("-------------------------------------------------------------------")
+        print("Slim nu kan je bedrijf nog goed groeien")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag37())
     elif antwoord38.lower() == "b":
-        print("Het is jammer maar je hebt het wel geprobeerd. Je geniet nog van het leven en na 20 jaar sterf je in je slaap.\n")
+        print("-------------------------------------------------------------------")
+        print("Het is jammer maar je hebt het wel geprobeerd. Je geniet nog van het leven en na 20 jaar sterf je in je slaap.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -53,10 +73,16 @@ def vraag37():
     
     antwoord37 = input()
     if antwoord37.lower() == "a":
-        print("Dat is een hele slimmen zet want de markt is heel groot.\n")
+        print("-------------------------------------------------------------------")
+        print("Dat is een hele slimmen zet want de markt is heel groot.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag39())
     elif antwoord37.lower() == "b":
-        print("Je kijkt of je groote projecten kan krijgen. Na een tijd zoeken heb je wat gevonden.\n")
+        print("-------------------------------------------------------------------")
+        print("Je kijkt of je groote projecten kan krijgen. Na een tijd zoeken heb je wat gevonden.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag40())
     else:
         print("Kies a of b.\n")
@@ -69,10 +95,16 @@ def vraag36():
     
     antwoord36 = input()
     if antwoord36.lower() == "a":
-        print("Je maakt het bedrijf veel groter voor je werknemers koop je betere spullen.\n")
+        print("-------------------------------------------------------------------")
+        print("Je maakt het bedrijf veel groter voor je werknemers koop je betere spullen.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag37())
     elif antwoord36.lower() == "b":
-        print("Je blijft nog simpel werken dat hoeft niet slecht te zijn.\n")
+        print("-------------------------------------------------------------------")
+        print("Je blijft nog simpel werken dat hoeft niet slecht te zijn.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag38())
     else:
         print("Kies a of b.\n")
@@ -85,10 +117,16 @@ def vraag35():
     
     antwoord35 = input()
     if antwoord35.lower() == "a":
-        print("Je bent benieuwd waar dit naar toe gaat en je hebt er veel zin in.\n")
+        print("-------------------------------------------------------------------")
+        print("Je bent benieuwd waar dit naar toe gaat en je hebt er veel zin in.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag36())
     elif antwoord35.lower() == "b":
-        print("Je heb je beste tijd gehad. Na nog 20 jaar stopt je hart in je slaap.\n")
+        print("-------------------------------------------------------------------")
+        print("Je heb je beste tijd gehad. Na nog 20 jaar stopt je hart in je slaap.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -101,10 +139,16 @@ def vraag34():
     
     antwoord34 = input()
     if antwoord34.lower() == "a":
-        print("Je steelt veel geld van verschillende mensen. Alleen de politie heeft je door en je word opgepakt en veroordeeld tot cel straf.\n")
+        print("-------------------------------------------------------------------")
+        print("Je steelt veel geld van verschillende mensen. Alleen de politie heeft je door en je word opgepakt en veroordeeld tot cel straf.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag32())
     elif antwoord34.lower() == "b":
-        print("Ik hoop dat het niet te laat is.\n")
+        print("-------------------------------------------------------------------")
+        print("Ik hoop dat het niet te laat is.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag19())
     else:
         print("Kies a of b.\n")
@@ -117,10 +161,16 @@ def vraag33():
     
     antwoord33 = input()
     if antwoord33.lower() == "a":
-        print("Het kan een fijne baan zijn.\n")
+        print("-------------------------------------------------------------------")
+        print("Het kan een fijne baan zijn.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag28())
     elif antwoord33.lower() == "b":
-        print("Het verdient niet veel maar je moet ergens beginnen.\n")
+        print("-------------------------------------------------------------------")
+        print("Het verdient niet veel maar je moet ergens beginnen.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag30())
     else:
         print("Kies a of b.\n")
@@ -133,10 +183,16 @@ def vraag32():
     
     antwoord32 = input()
     if antwoord32.lower() == "a":
-        print("Je word ontdekt en tijdens het vluchten schieten de bewakers je neer.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je word ontdekt en tijdens het vluchten schieten de bewakers je neer.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1) 
         print(vraag1())
     elif antwoord32.lower() == "b":
-        print("Je krijt ruzie met andere gevangenen. In de nacht komen de anderen naar je cel en schoppen en slaan je tot je sterft.\n")
+        print("-------------------------------------------------------------------")
+        print("Je krijt ruzie met andere gevangenen. In de nacht komen de anderen naar je cel en schoppen en slaan je tot je sterft.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -149,10 +205,16 @@ def vraag31():
     
     antwoord31 = input()
     if antwoord31.lower() == "a":
-        print("Ik hoop dat je kansen beter zijn daar\n")
+        print("-------------------------------------------------------------------") 
+        print("Ik hoop dat je kansen beter zijn daar")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag15())
     elif antwoord31.lower() == "b":
-        print("Je gaat terug. Na een lange reis zie je dat er nog steeds oorlog is en je besluit om weer te vluchten.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je gaat terug. Na een lange reis zie je dat er nog steeds oorlog is en je besluit om weer te vluchten.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag2())
     else:
         print("Kies a of b.\n")
@@ -165,10 +227,16 @@ def vraag30():
     
     antwoord30 = input()
     if antwoord30.lower() == "a":
-        print("Dit is denk een goede keus.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dit is denk een goede keus.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag28())
     elif antwoord30.lower() == "b":
-        print("Het verdient goed en is nog interessant ook.\n")
+        print("-------------------------------------------------------------------") 
+        print("Het verdient goed en is nog interessant ook.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag29())
     else:
         print("Kies a of b.\n")
@@ -181,10 +249,16 @@ def vraag29():
     
     antwoord29 = input()
     if antwoord29.lower() == "a":
-        print("Na zo veel jaar werken kan je beter genieten.\n")
+        print("-------------------------------------------------------------------") 
+        print("Na zo veel jaar werken kan je beter genieten.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag35())
     elif antwoord29.lower() == "b":
-        print("Je werkt nog 10 jaar door. Je baas verteld dat hij gaat stoppen en wilt dat jij het bedrijf gaat runnen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je werkt nog 10 jaar door. Je baas verteld dat hij gaat stoppen en wilt dat jij het bedrijf gaat runnen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag36())
     else:
         print("Kies a of b.\n")
@@ -197,10 +271,16 @@ def vraag28():
     
     antwoord28 = input()
     if antwoord28.lower() == "a":
-        print("Je gaat terug. Na een lange reis zie je dat er nog steeds oorlog is en je besluit om weer te vluchten.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je gaat terug. Na een lange reis zie je dat er nog steeds oorlog is en je besluit om weer te vluchten.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag2())
     elif antwoord28.lower() == "b":
-        print("Je bent hier gekomen en blijft hier.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je bent hier gekomen en blijft hier.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag35())
     else:
         print("Kies a of b.\n")
@@ -213,10 +293,16 @@ def vraag27():
     
     antwoord27 = input()
     if antwoord27.lower() == "a":
-        print("Ik hoop dat het allemaal goed gaat.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ik hoop dat het allemaal goed gaat.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag34())
     elif antwoord27.lower() == "b":
-        print("Dat is wel stuk veiliger.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dat is wel stuk veiliger.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag19())
     else:
         print("Kies a of b.\n")
@@ -229,10 +315,16 @@ def vraag26():
     
     antwoord26 = input()
     if antwoord26.lower() == "a":
-        print("Na 5 lange weken is het eindelijk zover je hebt een verblijfsvergunning.\n")
+        print("-------------------------------------------------------------------") 
+        print("Na 5 lange weken is het eindelijk zover je hebt een verblijfsvergunning.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag33())
     elif antwoord26.lower() == "b":
-        print("Nu je weg gaat kan je niet meer in Nederland blijven\n")
+        print("-------------------------------------------------------------------") 
+        print("Nu je weg gaat kan je niet meer in Nederland blijven")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag31())
     else:
         print("Kies a of b.\n")
@@ -245,10 +337,16 @@ def vraag25():
     
     antwoord25 = input()
     if antwoord25.lower() == "a":
-        print("Ze geloven je niet dus ze zetten je uit het land.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ze geloven je niet dus ze zetten je uit het land.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag31())
     elif antwoord25.lower() == "b":
-        print("Ze denken dat je een spion bent dus ze hebben je veroordeeld tot 5 jaar cel.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ze denken dat je een spion bent dus ze hebben je veroordeeld tot 5 jaar cel.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag32())
     else:
         print("Kies a of b.\n")
@@ -262,13 +360,22 @@ def vraag24():
     
     antwoord24 = input()
     if antwoord24.lower() == "a":
-        print("Dat is wel een zware klus maar het moet goed komen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dat is wel een zware klus maar het moet goed komen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag28())
     elif antwoord24.lower() == "b":
-        print("Er is veel te leren.\n")
+        print("-------------------------------------------------------------------") 
+        print("Er is veel te leren.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag29())
     elif antwoord24.lower() == "c":
-        print("Het verdient niet veel maar het is genoeg.\n")
+        print("-------------------------------------------------------------------") 
+        print("Het verdient niet veel maar het is genoeg.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag30())
     else:
         print("Kies a, b of c.\n")
@@ -281,10 +388,16 @@ def vraag23():
     
     antwoord23 = input()
     if antwoord23.lower() == "a":
-        print("Je werkt elke dag voor de komende 5 jaar. Je bent nu rijk heb een mooi huis en een goed leven toch denk je soms nog wel terug aan de slechte tijd.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je werkt elke dag voor de komende 5 jaar. Je bent nu rijk heb een mooi huis en een goed leven toch denk je soms nog wel terug aan de slechte tijd.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     elif antwoord23.lower() == "b":
-        print("Je reis heel Griekenland door. Je ziet allemaal mooie plekken en je hebt een fijn leven.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je reis heel Griekenland door. Je ziet allemaal mooie plekken en je hebt een fijn leven.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -297,10 +410,16 @@ def vraag22():
     
     antwoord22 = input()
     if antwoord22.lower() == "a":
-        print("De politie word gebeld en je word opgepakt voor fraude.\n")
+        print("-------------------------------------------------------------------") 
+        print("De politie word gebeld en je word opgepakt voor fraude.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     elif antwoord22.lower() == "b":
-        print("Ze vinden het niet leuk maar ze kijken watze kunnen doen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ze vinden het niet leuk maar ze kijken watze kunnen doen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag23())
     else:
         print("Kies a of b.\n")
@@ -313,10 +432,16 @@ def vraag21():
     
     antwoord21 = input()
     if antwoord21.lower() == "a":
-        print("Hopelijk kunnen zij je helpen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Hopelijk kunnen zij je helpen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag19())
     elif antwoord21.lower() == "b":
-        print("Is dat wel slim??? Wat maakt jou het uit je verdient het.\n")
+        print("-------------------------------------------------------------------") 
+        print("Is dat wel slim??? Wat maakt jou het uit je verdient het.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag27())
     else:
         print("Kies a of b.\n")
@@ -329,10 +454,16 @@ def vraag20():
     
     antwoord20 = input()
     if antwoord20.lower() == "a":
-        print("Je word hartelijk verwelkomd en ze proberen ook je te helpen om in nederland te kunnen blijven.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je word hartelijk verwelkomd en ze proberen ook je te helpen om in nederland te kunnen blijven.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag26())
     elif antwoord20.lower() == "b":
-        print("Je gaat dan toch maar kijken of je bij de gemeente iets voor elkaar kan krijgen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je gaat dan toch maar kijken of je bij de gemeente iets voor elkaar kan krijgen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag19())
     else:
         print("Kies a of b.\n")
@@ -345,10 +476,16 @@ def vraag19():
     
     antwoord19 = input()
     if antwoord19.lower() == "a":
-        print("Ze kijken wat ze voor je kunnen doen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ze kijken wat ze voor je kunnen doen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag24())
     elif antwoord19.lower() == "b":
-        print("Ze denken dat je liegt dus je word meegenomen door de politie en verhoord.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ze denken dat je liegt dus je word meegenomen door de politie en verhoord.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag25())
     else:
         print("Kies a of b.\n")
@@ -361,10 +498,16 @@ def vraag18():
     
     antwoord18 = input()
     if antwoord18.lower() == "a":
-        print("De gemeente probeerd je naam op te zoeken maar je staat niet in het systeem.\n")
+        print("-------------------------------------------------------------------") 
+        print("De gemeente probeerd je naam op te zoeken maar je staat niet in het systeem.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag22())
     elif antwoord18.lower() == "b":
-        print("Ze weten niet zeker of het lukt maar ze zullen kijken wat ze kunnen doen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ze weten niet zeker of het lukt maar ze zullen kijken wat ze kunnen doen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag23())
     else:
         print("Kies a of b.\n")
@@ -377,10 +520,16 @@ def vraag17():
     
     antwoord17 = input()
     if antwoord17.lower() == "a":
-        print("Je sterft in het kamp.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je sterft in het kamp.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     elif antwoord17.lower() == "b":
-        print("Je rent het dorp uit en rent tegen een soldaat die toevallig een anti-gif heeft. Hij vraagt je met hem mee wilt gaan lopen en dat doe je.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je rent het dorp uit en rent tegen een soldaat die toevallig een anti-gif heeft. Hij vraagt je met hem mee wilt gaan lopen en dat doe je.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag9())
     else:
         print("Kies a of b.\n")
@@ -394,13 +543,22 @@ def vraag16():
     
     antwoord16 = input()
     if antwoord16.lower() == "a":
-        print("Je hoopt dat je mag blijven zo niet wat moet je dan doen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je hoopt dat je mag blijven zo niet wat moet je dan doen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag19())
     elif antwoord16.lower() == "b":
-        print("Er is vast wel een plek waar je heen kan.\n")
+        print("-------------------------------------------------------------------") 
+        print("Er is vast wel een plek waar je heen kan.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag20())
     elif antwoord16.lower() == "c":
-        print("Je kan het altijd proberen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je kan het altijd proberen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag21())
     else:
         print("Kies a, b of c.\n")
@@ -413,10 +571,16 @@ def vraag15():
     
     antwoord15 = input()
     if antwoord15.lower() == "a":
-        print("Dat is mischien wel slim zij kunnen je vast helpen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dat is mischien wel slim zij kunnen je vast helpen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag18())
     elif antwoord15.lower() == "b":
-        print("Dit is belangrijk maar ik denk toch dat je naar de gemeente moet.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dit is belangrijk maar ik denk toch dat je naar de gemeente moet.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag15())
     else:
         print("Kies a of b.\n")
@@ -429,10 +593,16 @@ def vraag14():
     
     antwoord14 = input()
     if antwoord14.lower() == "a":
-        print("Hopelijk kan je daar verder vluchten.\n")
+        print("-------------------------------------------------------------------") 
+        print("Hopelijk kan je daar verder vluchten.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag8())
     elif antwoord14.lower() == "b":
-        print("Hopelijk kan je daar verder vluchten.\n")
+        print("-------------------------------------------------------------------") 
+        print("Hopelijk kan je daar verder vluchten.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag7())
     else:
         print("Kies a of b.\n")
@@ -446,13 +616,22 @@ def vraag13():
     
     antwoord13 = input()
     if antwoord13.lower() == "a":
-        print("Je hebt al dagen niet gegeten dit zal je goed doen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je hebt al dagen niet gegeten dit zal je goed doen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag17())
     elif antwoord13.lower() == "b":
-        print("Een stukje vlees dat is altijd goed voor je.\n")
+        print("-------------------------------------------------------------------") 
+        print("Een stukje vlees dat is altijd goed voor je.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag17())
     elif antwoord13.lower() == "c":
-        print("Groente zijn goed voor je het brengt je ook weer op kracht.\n")
+        print("-------------------------------------------------------------------") 
+        print("Groente zijn goed voor je het brengt je ook weer op kracht.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag17())
     else:
         print("Kies a, b of c.\n")
@@ -465,10 +644,16 @@ def vraag12():
     
     antwoord12 = input()
     if antwoord12.lower() == "a":
-        print("Je vertrekt met het vliegtuig en je kan eindelijk bijkomen van de lange reis.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je vertrekt met het vliegtuig en je kan eindelijk bijkomen van de lange reis.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag16())
     elif antwoord12.lower() == "b":
-        print("Okay er is jammer genoeg geen ander vliegtuig dus je gaat maar verder lopen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Okay er is jammer genoeg geen ander vliegtuig dus je gaat maar verder lopen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag9())
     else:
         print("Kies a of b.\n")
@@ -481,10 +666,16 @@ def vraag11():
     
     antwoord11 = input()
     if antwoord11.lower() == "a":
-        print("Je probeerd de boot weer recht op te krijgen maar er komt nog een groote golf op je af. Je word mee gesleurd door de golven en verdrinkt.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je probeerd de boot weer recht op te krijgen maar er komt nog een groote golf op je af. Je word mee gesleurd door de golven en verdrinkt.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     elif antwoord11.lower() == "b":
-        print("Je word mee gesleurd door de golven en verdrinkt.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je word mee gesleurd door de golven en verdrinkt.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     else:
         print("Kies a of b.\n")
@@ -497,10 +688,16 @@ def vraag10():
     
     antwoord10 = input()
     if antwoord10.lower() == "a":
-        print("Je hoort dat de boot naar Nederland gaat. Misschien kan je daar een nieuw leven opbouwen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je hoort dat de boot naar Nederland gaat. Misschien kan je daar een nieuw leven opbouwen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag16())
     elif antwoord10.lower() == "b":
-        print("Je nieuwe leven in Griekenland begint nu.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je nieuwe leven in Griekenland begint nu.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag15())
     else:
         print("Kies a of b.\n")
@@ -513,10 +710,16 @@ def vraag9():
     
     antwoord9 = input()
     if antwoord9.lower() == "a":
-        print("Je kom binnen in het kamp en je word verwelkomd door lachende kinderen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je kom binnen in het kamp en je word verwelkomd door lachende kinderen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag13())
     elif antwoord9.lower() == "b":
-        print("Ik hoop dat we niet lang meer hoeven te lopen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ik hoop dat we niet lang meer hoeven te lopen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag14())
     else:
         print("Kies a of b.\n")
@@ -529,10 +732,16 @@ def vraag8():
     
     antwoord8 = input()
     if antwoord8.lower() == "a":
-        print("De soldaten zien er vriendelijk uit. Je gaat met hun praten.\n")
+        print("-------------------------------------------------------------------") 
+        print("De soldaten zien er vriendelijk uit. Je gaat met hun praten.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag12())
     elif antwoord8.lower() == "b":
-        print("Okay er is jammer genoeg geen ander vliegtuig dus je gaat maar verder lopen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Okay er is jammer genoeg geen ander vliegtuig dus je gaat maar verder lopen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag9())
     else:
         print("Kies a of b.\n")
@@ -545,10 +754,16 @@ def vraag7():
     
     antwoord7 = input()
     if antwoord7.lower() == "a":
-        print("Het duurt misschien wat langer maar het is een stuk minder krap.\n")
+        print("-------------------------------------------------------------------") 
+        print("Het duurt misschien wat langer maar het is een stuk minder krap.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag10())
     elif antwoord7.lower() == "b":
-        print("Ik hoop dat het kleine bootje het houd.\n")
+        print("-------------------------------------------------------------------") 
+        print("Ik hoop dat het kleine bootje het houd.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag11())
     else:
         print("Kies a of b.\n")
@@ -562,13 +777,22 @@ def vraag6():
     
     antwoord6 = input()
     if antwoord6.lower() == "a":
-        print("Dat is een slimme manier.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dat is een slimme manier.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag7())
     elif antwoord6.lower() == "b":
-        print("Zo kom je wel heel snel weg.\n")
+        print("-------------------------------------------------------------------") 
+        print("Zo kom je wel heel snel weg.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag8())
     elif antwoord6.lower() == "c":
-        print("kijk wel uit je weet nooit wat je tegenkomt.\n")
+        print("-------------------------------------------------------------------") 
+        print("kijk wel uit je weet nooit wat je tegenkomt.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag9())
     else:
         print("Kies a,b of c.\n")
@@ -581,11 +805,17 @@ def vraag5():
     
     antwoord5 = input()
     if antwoord5.lower() == "a":
-        print("Je word ondekt en gevangen genomen.\n")
-        print("Je bent gevangen genomen begin opnieuw.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je word ondekt en gevangen genomen.")
+        print("Je bent gevangen genomen begin opnieuw.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag1())
     elif antwoord5.lower() == "b":
-        print("Je vecht voor weken.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je vecht voor weken.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag9())
     else:
         print("Kies a of b.\n")
@@ -598,10 +828,16 @@ def vraag4():
     
     antwoord4 = input()
     if antwoord4.lower() == "a":
-        print("Okay het is omdat je moeder niet wil.\n")
+        print("-------------------------------------------------------------------") 
+        print("Okay het is omdat je moeder niet wil.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag5())
     elif antwoord4.lower() == "b":
-        print("Je zegt je moeder gedag en vertrekt.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je zegt je moeder gedag en vertrekt.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag6())
     else:
         print("Kies a of b.\n")
@@ -615,13 +851,22 @@ def vraag3():
     
     antwoord3 = input()
     if antwoord3.lower() == "a":
-        print("Je zus zal dankbaar zijn.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je zus zal dankbaar zijn.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag6())
     elif antwoord3.lower() == "b":
-        print("Je moeder is altijd belangrijk.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je moeder is altijd belangrijk.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag4())
     elif antwoord3.lower() == "c":
-        print("Je huisdier is je beste maat.\n")
+        print("-------------------------------------------------------------------") 
+        print("Je huisdier is je beste maat.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag6())
     else:
         print("Kies a,b of c.\n")
@@ -636,39 +881,71 @@ def vraag2():
     
     antwoord2 = input()
     if antwoord2.lower() == "a":
-        print("Dat kan nog van pas komen.\n")
+        print("-------------------------------------------------------------------") 
+        print("Dat kan nog van pas komen.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag3())
     elif antwoord2.lower() == "b":
-        print("Slim voor als je gewond raakt.\n")
+        print("-------------------------------------------------------------------")
+        print("Slim voor als je gewond raakt.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag3())
     elif antwoord2.lower() == "c":
-        print("Hopelijk heb je niks nodig.\n")
+        print("-------------------------------------------------------------------") 
+        print("Hopelijk heb je niks nodig.")
+        print("-------------------------------------------------------------------") 
+        time.sleep(1)
         print(vraag3())
     else:
         print("Kies a,b of c.\n")
         print(vraag2())
 
 def vraag1():
-    
+
     print("Wil je vluchten ?\n")
     print("a = ja ")
     print("b = nee ")
     print("c = ik weet niet hoe ?")
     
     antwoord1 = input()
-    if antwoord1.lower() == "a": 
-        print("Okay hier gaan we\n")
+    if antwoord1.lower() == "a":
+        print("-------------------------------------------------------------------") 
+        print("Okay hier gaan we")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag2())
     elif antwoord1.lower() == "b":
-        print("Je word opgeblazen.\n")
-        print("Je bent dood begin opnieuw.\n")
+        print("-------------------------------------------------------------------")
+        print("Je word opgeblazen.")
+        print("Je bent dood begin opnieuw.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1)
         print(vraag1())
     elif antwoord1.lower() == "c":
-        print("Je moet.\n")
+        print("-------------------------------------------------------------------")
+        print("Je moet.")
+        print("-------------------------------------------------------------------")
+        time.sleep(1) 
         print(vraag2())
     else:
         print("Kies a,b of c.\n")
         print(vraag1())
-        
-print(vraag1())
+
+print("Je bent een man uit Syrië die er achter komt dat er oorlog is in zijn land. Op een dag sta je op met het idee om te gaan vluchten.")
+time.sleep(2)
+print("Nu is het aan jou om de goede keuzens te maken en de man te helpen om te vluchten.")
+time.sleep(2)
+print("Kies a, b of c om verder te komen in het verhaal MAAR let op elke keuzen heeft gevolgen kies verstandig.")        
+time.sleep(1)
+print("Begin\n")
+print("3")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("1\n")
+time.sleep(1)
+
+vraag1()
     
